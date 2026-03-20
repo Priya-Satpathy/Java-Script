@@ -69,9 +69,32 @@
 
 //reverse a string
 
-let str = "Hello";
-let reverse = "";
-for(let i = str.length-1; i>=0; i--){
-    reverse += str[i];
+// let str = "Hello";
+// let reverse = "";
+// for(let i = str.length-1; i>=0; i--){
+//     reverse += str[i];
+// }
+// console.log(reverse);
+
+//maximum number
+let arr = [5,8,2,10,3];
+let max = arr[0];
+
+for(let i = 1; i<arr.length; i++){
+    if(arr[i]>max){
+        max = arr[i]
+    }
 }
-console.log(reverse);
+console.log(max);
+
+//factorial no
+let num = 5;
+let f = 1;
+for(let i = 1; i<num; i++){
+    f = f*i;
+}
+console.log(f);
+
+for(let b of "Priya"){
+    console.log(b); 
+}
