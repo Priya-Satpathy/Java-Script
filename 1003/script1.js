@@ -15,3 +15,16 @@ let sur = "     Shimandi   "
 console.log(sur.trim());
 console.log(sur);
 
+let etm = "Harry"
+console.log(etm[0]);
+console.log(etm[4]);
+
+//use a for loop to print a string 
+let arr = "Harry"
+for(i=0; i<arr.length; i++){
+    console.log(arr[i]);
+    
+}
+
+let frame  = "Shivika" + " "+"Harry"
+console.log(frame);
