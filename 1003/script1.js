@@ -47,3 +47,18 @@ console.log(
 //problem no 3
 console.log(word.toLowerCase())
 console.log(word.toUpperCase())
+//problem 4
+let str2 = "Please give me Rs.1000"
+// let amount = str2.slice("please give Rs.".length)
+
+let amount = Number.parseInt(str2.slice(15));
+console.log(amount);
+
+//problem 5
+let fri = "Deepika";
+console.log(fri.replace("p","r"))
+
+//
+let frie = "Deepika"
+frie[3] = "R"
+console.log(frie);
