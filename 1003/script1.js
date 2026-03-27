@@ -28,3 +28,22 @@ for(i=0; i<arr.length; i++){
 
 let frame  = "Shivika" + " "+"Harry"
 console.log(frame);
+
+//string practice set
+let str = "Har\"";
+console.log(str.length);
+
+const word = "fox";
+const sentence = " The chemical name is used by scientists, though they refer to the protein simply as  or connectin "
+console.log(sentence.includes(word));
+
+console.log(
+    `The word "${word}" ${
+      sentence.includes(word) ? "is" : "is not"
+    } in the sentence`,
+  );
+
+
+//problem no 3
+console.log(word.toLowerCase())
+console.log(word.toUpperCase())
