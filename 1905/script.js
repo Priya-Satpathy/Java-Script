@@ -1,12 +1,14 @@
-// addition();
 
-// function addition(){
-//     let a = parseInt(prompt("Enter first number:"));
-//     let b = parseInt(prompt("Enter second number:"));
-//     let s = a+b;
-//     console.log("Sum is ",s);
+function addition(){
+    let a = parseInt(prompt("Enter first number:"));
+    let b = parseInt(prompt("Enter second number:"));
+    let s = a+b;
+    console.log("Sum is ",s);
     
-// }
+}
+
+addition();
+
 
 // function addition(){
 //     let a = parseInt(prompt("Enter first number:"));
