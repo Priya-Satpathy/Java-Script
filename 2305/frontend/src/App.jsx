@@ -1,14 +1,10 @@
-import Welcome from "./components/Welcome"
-import Career from "./Welcome"
-
+import CounterApp from "./components/CounterApp"
 
 
 function App() {
   return (
     <>
-    <Welcome />
-  
-      
+      <CounterApp />
     </>
   )
 }
